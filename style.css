@@ -1,0 +1,182 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_52683-33063.jpg?w=740&t=st=1707630082~exp=1707630682~hmac=a74f6a26a7a6c6c33897255832d0356584f0836e15630c5aa4db6f2bd0448f0c');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+        #logo-container {
+          margin-bottom: 20px; 
+		  margin-top: 20px;
+        }
+
+       #logo {
+         width: 200px; 
+          height: auto;
+        }
+		#container {
+    background-color: rgba(114, 247, 5, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+        #container p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        #buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #fa0089;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #2d09fa;
+        }
+        button.special {
+            background-color: #02fafa; 
+        }
+		#special-button {
+            display: none;
+            background-color: #ffa500; 
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #special-button:hover {
+            background-color: #ff7f00; 
+        }
+		#success-message {
+            color: black;
+            margin-top: 20px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+		#minted-nfts {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+#minted-nfts > div {
+    margin: 10px; 
+}
+@media (max-width: 768px) {
+    #container {
+        max-width: 90%; 
+    }
+}
+.minted-nfts {
+    text-align: center;
+}
+
+.minted-nfts-label {
+    margin-bottom: 20px;
+	display: block;
+    width: 100%; 
+}
+
+.minted-nfts-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.minted-nft-container {
+    margin: 10px;
+    text-align: center;
+}
+#supply{
+	font-size: 33px;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    cursor: pointer;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #fa0089;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2d09fa;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+#info p {
+    margin: 0;
+}
+
+

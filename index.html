@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple NFT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+    
+</head>
+<body>
+    <div id="logo-container">
+        <img src="/umer nft logo.png" alt="Logo" id="logo">
+    </div>
+
+	<div id="container">
+		<div id="content">
+			<p id ="supply"><span id="max-supply"></span>/1000</p>
+			<p>Wallet address: <span id="wallet-address"></span></p>
+            <p>Smart Contract address: <span id="smart-contract-address"></span></p>
+			<div class="form-group">
+				<label for="nft-name">NFT Name:</label>
+				<input type="text" id="nft-name" placeholder="Enter the name of your NFT">
+			</div>
+			<div class="form-group">
+				<label for="nft-description">NFT Description:</label>
+				<textarea id="nft-description" placeholder="Enter the description of your NFT"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="image-upload">Upload Image:</label>
+				<input type="file" id="image-upload" accept="image/*">
+			</div>
+			<div id="buttons">
+				<button id="mint">Mint an NFT</button>
+				<!--- <button id="get-totalsupply">Get Total Supply</button>
+				<button id="withdraw">Withdraw</button>
+				<button id="display-balance">Display Balance of NFT</button>
+				<button id="special-button">Go to Testnet</button>-->
+			</div>
+			<div id="info">
+				<p id="totalsupply"></p><hr>
+				<p id="balance"></p>
+			</div>
+		</div>
+		
+		<div id="minted-nfts">
+			<div class="minted-nfts-label"></div>
+			<div class="minted-nfts-images"></div>
+		</div>
+	
+		<div id="success-message"></div>
+	</div>
+	
+	
+	
+
+
+
+    
+
+
+
+</body>
+</html>
